@@ -59,7 +59,7 @@
 
     trackball: trackball@0 {
         status = "okay";
-        compatible = "zmk,pmw3610"; // ここを "zmk,pmw3610" にします
+        compatible = "pixart,pmw3610"; // ここを "pixart,pmw3610" に戻します
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
